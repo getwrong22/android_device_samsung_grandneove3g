@@ -60,7 +60,10 @@ TARGET_SCREEN_HEIGHT := 800
 TARGET_SCREEN_WIDTH := 480
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := GT-I9060I,GT-I9060C,grandneove3g, grandneove3gxx
+TARGET_OTA_ASSERT_DEVICE := GT-I9060I,GT-I9060C,grandneove3g,grandneove3gxx
 
 # Gralloc
 TARGET_UPDATED_MALI := true
+
+# Backlight
+TARGET_HAS_BACKLIT_KEYS := true
